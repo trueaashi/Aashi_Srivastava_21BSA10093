@@ -1,6 +1,6 @@
 # Turn-Based Chess-Like Game with WebSocket Communication
 
-**GitHub Link**: [Your GitHub Repository Link]
+**GitHub Link**: https://github.com/trueaashi/Aashi_Srivastava_21BSA10093.git
 
 ## Overview
 This project is a **turn-based chess-like game** designed for real-time multiplayer play using WebSocket communication. The game features a 5x5 grid where two players control teams of characters, each with unique movement rules. The objective is to capture the opponent’s pieces, with the game ending when one player eliminates all of the opponent’s characters.
