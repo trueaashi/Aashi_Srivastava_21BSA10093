@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+#game-board {
+    width: 100%;
+    border-collapse: separate;
+
+    border-spacing: 5px;
+
+    margin-bottom: 20px;
+}
+
+#game-board td {
+    width: 60px;
+
+    height: 60px;
+    background-color: #333;
+    border: 1px solid #444;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #007bff;
+}
+
+#character-controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#character-controls button:hover {
+    background-color: #555;
+}
+
+#selected-indicator {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#current-player {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero2-move {
+    display: none;
+}
+
+#move-history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#move-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#move-history li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#error {
+    color: #f00;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+}
+
+#win-message {
+    color: #0f0;
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+}
+
+#draw-message {
+    color: #ff0;
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+}
+
+#restartGame {
+    display: none;
+}
