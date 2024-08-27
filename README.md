@@ -5,9 +5,6 @@
 ## Overview
 This project is a **turn-based chess-like game** designed for real-time multiplayer play using WebSocket communication. The game features a 5x5 grid where two players control teams of characters, each with unique movement rules. The objective is to capture the opponent’s pieces, with the game ending when one player eliminates all of the opponent’s characters.
 
-## Project Timeline
-**August 2024 - Ongoing**
-
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, WebSocket API
